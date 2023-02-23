@@ -227,6 +227,7 @@ footer > img{
     .form-output{
         width: 100%;
     }
+    
     footer{
         flex-direction: column;
         padding-bottom: 30px;
