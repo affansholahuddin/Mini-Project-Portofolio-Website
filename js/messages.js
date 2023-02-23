@@ -1,13 +1,3 @@
-// Get Username
-var nameInput = prompt("Masukan nama Anda sebelum akses.");
-var nameUser;
-if (nameInput === null || nameInput.trim() === "") {
-    nameUser = "Kamu";
-} else {
-    nameUser = nameInput;
-}
-document.getElementById("nameUser").innerText = nameUser;
-
 // Function Validate
 function validateForm(){
     const name = document.forms["message-form"]["full-name"].value;
